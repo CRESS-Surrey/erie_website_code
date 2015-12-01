@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'r6SabFPgD9E0WIJwp9XCX5svHCb418C2VSqqpgehGxUYKgLEbJ_Dzkm6RgFbzLQPFX7NYvBk7Q';
 
 /**
  * Deployment identifier.
@@ -712,3 +712,15 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 # if (file_exists(__DIR__ . '/settings.local.php')) {
 #   include __DIR__ . '/settings.local.php';
 # }
+$databases['default']['default'] = array (
+  'database' => 'erie_website',
+  'username' => 'erie_website',
+  'password' => 'erie_website',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['install_profile'] = 'standard';
+$config_directories['sync'] = 'sites/default/files/config_maX8BDjhFpIRci9Q7NUOnl1v-BcDuH8K9QxztsrrCGyoppdUmn58o9usFBnjJcqEGihkCU5rAg/sync';
