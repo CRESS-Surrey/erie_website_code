@@ -56,7 +56,9 @@ global-styling:
       
   js:
     bootstrap/js/bootstrap.min.js: {}
-
+  dependencies:
+    - core/jquery
+    - core/jquery.once
 messages:
   version: VERSION
   css:
