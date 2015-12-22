@@ -34,3 +34,8 @@ sites/simpletest
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
+
+#Ignore Eclipse project
+.project
+.settings
+.buildpath
