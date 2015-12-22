@@ -7,7 +7,7 @@ a:hover,a:focus,.full-width-bg a:hover, .full-width-bg a:focus {
   border: none;
 }
 .full-width-bg {
-  background: rgb(44, 58, 77);
+  background: white;
   box-shadow: 0 4px 5px rgba(0,0,0,.1);
 }
 .full-width-bg a {
@@ -68,6 +68,7 @@ h1,h2,h3,h4,h5,h6 {
   color: #333;
 }
 header#header {
+  background: whitesmoke none repeat scroll 0 0;
   box-shadow: 0 4px 5px rgba(0,0,0,.1);
 }
 #logo img, .site-logo img {
