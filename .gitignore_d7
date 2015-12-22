@@ -1,0 +1,13 @@
+# Ignore configuration files that may contain sensitive information.
+#sites/*/settings*.php
+
+# Ignore paths that contain user-generated content - @to-do: re-enable on production
+#sites/*/files
+#sites/*/private
+
+
+#Ignore Eclipse project
+.project
+.settings
+.buildpath
+#.csslintrc
