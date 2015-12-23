@@ -268,3 +268,12 @@ strong {
 .credited a {
   color: #F2E6E6;
 }
+
+#node-project-general-info
+{
+  padding-top: 25px;
+}
+#node-project-body
+{
+  padding-top: 15px;
+}
