@@ -98,19 +98,19 @@
 <div class="field-content col-md-4" id="node-project-general-info">
 			<table>
 				<tbody>
-				{% if not content.field_project_leader is empty %}
+				{% if content.field_project_start_date %}
+					<tr>
+						<td><h4>{{ content.field_project_start_date }}</h4></td>
+					</tr>
+				{% endif %}
+				{% if content.field_project_leader%}
 					<tr>
 						<td><h4>{{ content.field_project_leader }}</h4></td>
 					</tr>
 				{% endif %}
-				{% if not content.field_project_contact is empty %}
+				{% if content.field_project_contact%}
 					<tr>
 						<td><h4>{{ content.field_project_contact }}</h4></td>
-					</tr>
-				{% endif %}
-				{% if not  content.field_project_start_date is empty %}
-					<tr>
-						<td><h4>{{ content.field_project_start_date }}</h4></td>
 					</tr>
 				{% endif %}
 				</tbody>
